@@ -1,0 +1,2 @@
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x10f3536a0>> (for post_run_cell), with arguments args (<ExecutionResult object at 10f3600d0, execution_count=2 error_before_exec=None error_in_exec=None info=<ExecutionInfo object at 10f360040, raw_cell="import wandb
+import pandas as pd

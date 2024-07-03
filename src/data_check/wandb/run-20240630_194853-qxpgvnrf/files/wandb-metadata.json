@@ -1,0 +1,54 @@
+{
+    "os": "macOS-14.5-x86_64-i386-64bit",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-07-01T01:48:54.064307",
+    "startedAt": "2024-07-01T01:48:53.413605",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        ".",
+        "-vv",
+        "--csv",
+        "clean_sample.csv:latest",
+        "--ref",
+        "clean_sample.csv:reference",
+        "--kl_threshold",
+        "0.2",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "/Users/ryanmerrithew/anaconda3/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/pytest",
+    "git": {
+        "remote": "https://github.com/RyanMerr/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98"
+    },
+    "email": "merrithewryan@gmail.com",
+    "root": "/Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter",
+    "host": "MacBook-Pro",
+    "username": "ryanmerrithew",
+    "executable": "/Users/ryanmerrithew/anaconda3/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 9.558036804199219
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

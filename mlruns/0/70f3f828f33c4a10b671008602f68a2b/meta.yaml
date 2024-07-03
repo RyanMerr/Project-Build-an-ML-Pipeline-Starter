@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/70f3f828f33c4a10b671008602f68a2b/artifacts
+end_time: 1719970467865
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 70f3f828f33c4a10b671008602f68a2b
+run_name: ambitious-hen-725
+run_uuid: 70f3f828f33c4a10b671008602f68a2b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719970437944
+status: 3
+tags: []
+user_id: ryanmerrithew

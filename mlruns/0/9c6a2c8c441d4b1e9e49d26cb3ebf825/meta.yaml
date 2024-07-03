@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9c6a2c8c441d4b1e9e49d26cb3ebf825/artifacts
+end_time: 1719944448018
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9c6a2c8c441d4b1e9e49d26cb3ebf825
+run_name: unique-crow-778
+run_uuid: 9c6a2c8c441d4b1e9e49d26cb3ebf825
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719944406193
+status: 3
+tags: []
+user_id: ryanmerrithew

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b94c41cfeed5457c9f6c20d10b9200fc/artifacts
+end_time: 1719441751739
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b94c41cfeed5457c9f6c20d10b9200fc
+run_name: abundant-cow-907
+run_uuid: b94c41cfeed5457c9f6c20d10b9200fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719441750506
+status: 4
+tags: []
+user_id: ryanmerrithew

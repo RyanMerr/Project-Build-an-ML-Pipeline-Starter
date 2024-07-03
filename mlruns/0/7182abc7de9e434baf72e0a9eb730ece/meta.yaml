@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7182abc7de9e434baf72e0a9eb730ece/artifacts
+end_time: 1719944147923
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7182abc7de9e434baf72e0a9eb730ece
+run_name: suave-dove-148
+run_uuid: 7182abc7de9e434baf72e0a9eb730ece
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719944146111
+status: 4
+tags: []
+user_id: ryanmerrithew

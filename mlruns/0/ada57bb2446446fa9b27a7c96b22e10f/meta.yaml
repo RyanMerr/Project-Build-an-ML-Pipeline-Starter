@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ada57bb2446446fa9b27a7c96b22e10f/artifacts
+end_time: 1719798539512
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ada57bb2446446fa9b27a7c96b22e10f
+run_name: lyrical-shrike-923
+run_uuid: ada57bb2446446fa9b27a7c96b22e10f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719798444983
+status: 4
+tags: []
+user_id: ryanmerrithew

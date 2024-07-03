@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/26c10031cb504d4ebc61dfb4ecb3d183/artifacts
+end_time: 1719688474392
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 26c10031cb504d4ebc61dfb4ecb3d183
+run_name: welcoming-midge-482
+run_uuid: 26c10031cb504d4ebc61dfb4ecb3d183
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719688438359
+status: 3
+tags: []
+user_id: ryanmerrithew

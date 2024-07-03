@@ -1,0 +1,96 @@
+2024-06-25 17:11:47,200 INFO    StreamThr :19538 [internal.py:wandb_internal():87] W&B internal server running at pid: 19538, started at: 2024-06-25 17:11:47.200093
+2024-06-25 17:11:47,201 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status
+2024-06-25 17:11:47,202 INFO    WriterThread:19538 [datastore.py:open_for_write():85] open: /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240625_171147-5axu4apr/run-5axu4apr.wandb
+2024-06-25 17:11:47,203 DEBUG   SenderThread:19538 [sender.py:send():334] send: header
+2024-06-25 17:11:47,240 DEBUG   SenderThread:19538 [sender.py:send():334] send: run
+2024-06-25 17:11:47,538 INFO    SenderThread:19538 [dir_watcher.py:__init__():216] watching files in: /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240625_171147-5axu4apr/files
+2024-06-25 17:11:47,538 INFO    SenderThread:19538 [sender.py:_start_run_threads():1065] run started: 5axu4apr with start time 1719357107.200356
+2024-06-25 17:11:47,538 DEBUG   SenderThread:19538 [sender.py:send_request():361] send_request: summary_record
+2024-06-25 17:11:47,538 INFO    SenderThread:19538 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-06-25 17:11:47,540 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: check_version
+2024-06-25 17:11:47,541 DEBUG   SenderThread:19538 [sender.py:send_request():361] send_request: check_version
+2024-06-25 17:11:47,643 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: run_start
+2024-06-25 17:11:47,784 DEBUG   HandlerThread:19538 [system_info.py:__init__():31] System info init
+2024-06-25 17:11:47,784 DEBUG   HandlerThread:19538 [system_info.py:__init__():46] System info init done
+2024-06-25 17:11:47,784 INFO    HandlerThread:19538 [system_monitor.py:start():151] Starting system monitor
+2024-06-25 17:11:47,785 INFO    SystemMonitor:19538 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-06-25 17:11:47,785 INFO    HandlerThread:19538 [system_monitor.py:probe():172] Collecting system info
+2024-06-25 17:11:47,785 INFO    SystemMonitor:19538 [interfaces.py:start():168] Started cpu
+2024-06-25 17:11:47,785 INFO    SystemMonitor:19538 [interfaces.py:start():168] Started disk
+2024-06-25 17:11:47,786 DEBUG   HandlerThread:19538 [system_info.py:probe():195] Probing system
+2024-06-25 17:11:47,786 INFO    SystemMonitor:19538 [interfaces.py:start():168] Started memory
+2024-06-25 17:11:47,786 INFO    SystemMonitor:19538 [interfaces.py:start():168] Started network
+2024-06-25 17:11:47,794 DEBUG   HandlerThread:19538 [system_info.py:_probe_git():180] Probing git
+2024-06-25 17:11:47,822 DEBUG   HandlerThread:19538 [system_info.py:_probe_git():188] Probing git done
+2024-06-25 17:11:47,822 DEBUG   HandlerThread:19538 [system_info.py:probe():241] Probing system done
+2024-06-25 17:11:47,822 DEBUG   HandlerThread:19538 [system_monitor.py:probe():181] {'os': 'macOS-14.5-x86_64-i386-64bit', 'python': '3.9.15', 'heartbeatAt': '2024-06-25T23:11:47.786388', 'startedAt': '2024-06-25T23:11:47.192842', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/RyanMerr/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98'}, 'email': 'merrithewryan@gmail.com', 'root': '/Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter', 'host': 'MacBook-Pro', 'username': 'ryanmerrithew', 'executable': '/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/bin/python', 'cpu_count': 12, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'total': 460.4317207336426, 'used': 299.21711349487305}, 'memory': {'total': 16.0}}
+2024-06-25 17:11:47,822 INFO    HandlerThread:19538 [system_monitor.py:probe():182] Finished collecting system info
+2024-06-25 17:11:47,822 INFO    HandlerThread:19538 [system_monitor.py:probe():185] Publishing system info
+2024-06-25 17:11:47,823 DEBUG   HandlerThread:19538 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-06-25 17:11:47,823 DEBUG   HandlerThread:19538 [system_info.py:_save_pip():67] Saving pip packages done
+2024-06-25 17:11:47,823 DEBUG   HandlerThread:19538 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-06-25 17:11:48,541 INFO    Thread-12 :19538 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240625_171147-5axu4apr/files/requirements.txt
+2024-06-25 17:11:48,542 INFO    Thread-12 :19538 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240625_171147-5axu4apr/files/wandb-summary.json
+2024-06-25 17:11:48,542 INFO    Thread-12 :19538 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240625_171147-5axu4apr/files/conda-environment.yaml
+2024-06-25 17:11:50,038 DEBUG   HandlerThread:19538 [system_info.py:_save_conda():86] Saving conda packages done
+2024-06-25 17:11:50,038 DEBUG   HandlerThread:19538 [system_info.py:_save_code():89] Saving code
+2024-06-25 17:11:50,038 WARNING HandlerThread:19538 [system_info.py:_save_code():91] unable to save code -- program entry not found
+2024-06-25 17:11:50,038 DEBUG   HandlerThread:19538 [system_info.py:_save_patches():127] Saving git patches
+2024-06-25 17:11:50,113 DEBUG   HandlerThread:19538 [system_info.py:_save_patches():169] Saving git patches done
+2024-06-25 17:11:50,114 INFO    HandlerThread:19538 [system_monitor.py:probe():187] Finished publishing system info
+2024-06-25 17:11:50,118 DEBUG   SenderThread:19538 [sender.py:send():334] send: files
+2024-06-25 17:11:50,118 INFO    SenderThread:19538 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-06-25 17:11:50,129 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: stop_status
+2024-06-25 17:11:50,129 DEBUG   SenderThread:19538 [sender.py:send_request():361] send_request: stop_status
+2024-06-25 17:11:50,287 DEBUG   SenderThread:19538 [sender.py:send():334] send: telemetry
+2024-06-25 17:11:50,445 DEBUG   SenderThread:19538 [sender.py:send():334] send: use_artifact
+2024-06-25 17:11:50,502 INFO    Thread-15 :19538 [upload_job.py:push():143] Uploaded file /var/folders/6l/16f83d553r3dpd_12bffnyw40000gn/T/tmpeatybrfrwandb/q8i5bk4a-wandb-metadata.json
+2024-06-25 17:11:50,547 INFO    Thread-12 :19538 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240625_171147-5axu4apr/files/conda-environment.yaml
+2024-06-25 17:11:50,547 INFO    Thread-12 :19538 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240625_171147-5axu4apr/files/wandb-metadata.json
+2024-06-25 17:11:51,554 INFO    Thread-12 :19538 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240625_171147-5axu4apr/files/output.log
+2024-06-25 17:11:52,737 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:11:53,560 INFO    Thread-12 :19538 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240625_171147-5axu4apr/files/output.log
+2024-06-25 17:11:57,748 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:12:02,768 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:12:05,134 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:12:05,135 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:12:07,776 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:12:10,148 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:12:12,791 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:12:15,168 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:12:17,820 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:12:18,662 INFO    Thread-12 :19538 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240625_171147-5axu4apr/files/config.yaml
+2024-06-25 17:12:20,193 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:12:22,971 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:12:25,215 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:12:27,993 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:12:30,237 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:12:33,012 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:12:35,263 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:12:38,034 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:12:40,285 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:12:43,054 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:12:45,303 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:12:47,791 DEBUG   SystemMonitor:19538 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-06-25 17:12:47,794 DEBUG   SenderThread:19538 [sender.py:send():334] send: stats
+2024-06-25 17:12:48,796 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:12:50,323 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:12:53,814 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:12:55,339 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:12:58,837 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:13:00,355 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:13:03,847 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:13:05,375 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:13:08,862 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:13:10,398 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:13:13,877 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:13:15,411 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:13:17,797 DEBUG   SenderThread:19538 [sender.py:send():334] send: stats
+2024-06-25 17:13:19,808 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:13:20,431 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:13:24,828 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:13:25,446 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:13:29,840 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:13:30,460 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive
+2024-06-25 17:13:34,862 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: status_report
+2024-06-25 17:13:35,476 DEBUG   HandlerThread:19538 [handler.py:handle_request():144] handle_request: keepalive

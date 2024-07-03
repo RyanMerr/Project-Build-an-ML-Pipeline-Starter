@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/12a05b60138e46f8b334e2a68ab93f30/artifacts
+end_time: 1719879444452
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12a05b60138e46f8b334e2a68ab93f30
+run_name: bouncy-newt-864
+run_uuid: 12a05b60138e46f8b334e2a68ab93f30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719879409528
+status: 3
+tags: []
+user_id: ryanmerrithew

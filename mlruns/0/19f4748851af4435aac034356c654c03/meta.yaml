@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/19f4748851af4435aac034356c654c03/artifacts
+end_time: 1719688474247
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 19f4748851af4435aac034356c654c03
+run_name: respected-yak-760
+run_uuid: 19f4748851af4435aac034356c654c03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719688447471
+status: 3
+tags: []
+user_id: ryanmerrithew

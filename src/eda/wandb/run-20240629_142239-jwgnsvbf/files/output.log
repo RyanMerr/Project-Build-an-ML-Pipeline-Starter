@@ -1,0 +1,8 @@
+
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x140368d00>> (for post_run_cell), with arguments args (<ExecutionResult object at 1403316a0, execution_count=6 error_before_exec=None error_in_exec=[Errno 2] No such file or directory: './artifacts/sample.csv:v1/sample.csv' info=<ExecutionInfo object at 140331a60, raw_cell="import wandb
+import pandas as pd
+# Note that we us.." store_history=True silent=False shell_futures=True cell_id=vscode-notebook-cell:/Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/eda.ipynb#W2sZmlsZQ%3D%3D> result=None>,),kwargs {}:
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x140368d00>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 140977310, raw_cell="import wandb
+import pandas as pd
+# Note that we us.." store_history=True silent=False shell_futures=True cell_id=vscode-notebook-cell:/Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/eda.ipynb#W2sZmlsZQ%3D%3D>,),kwargs {}:

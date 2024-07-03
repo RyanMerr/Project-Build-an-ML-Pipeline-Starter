@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/721bf03276ab4da798c0077abb57da96/artifacts
+end_time: 1719356287014
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 721bf03276ab4da798c0077abb57da96
+run_name: crawling-goose-772
+run_uuid: 721bf03276ab4da798c0077abb57da96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719356285296
+status: 4
+tags: []
+user_id: ryanmerrithew

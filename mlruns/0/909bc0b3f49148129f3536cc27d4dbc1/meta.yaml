@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/909bc0b3f49148129f3536cc27d4dbc1/artifacts
+end_time: 1719970467732
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 909bc0b3f49148129f3536cc27d4dbc1
+run_name: upbeat-stork-780
+run_uuid: 909bc0b3f49148129f3536cc27d4dbc1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719970444197
+status: 3
+tags: []
+user_id: ryanmerrithew

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/193cccc61bcd45b78b25a3b08fb9d52b/artifacts
+end_time: 1719798287890
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 193cccc61bcd45b78b25a3b08fb9d52b
+run_name: thundering-moose-176
+run_uuid: 193cccc61bcd45b78b25a3b08fb9d52b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719798284114
+status: 4
+tags: []
+user_id: ryanmerrithew

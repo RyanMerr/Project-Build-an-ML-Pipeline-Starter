@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/dc27f843019946c4aeeda1847cf41628/artifacts
+end_time: 1719878867908
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dc27f843019946c4aeeda1847cf41628
+run_name: orderly-dolphin-239
+run_uuid: dc27f843019946c4aeeda1847cf41628
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719878739566
+status: 4
+tags: []
+user_id: ryanmerrithew

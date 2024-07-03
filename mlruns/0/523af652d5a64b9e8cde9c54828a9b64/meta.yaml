@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/523af652d5a64b9e8cde9c54828a9b64/artifacts
+end_time: 1719878867685
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 523af652d5a64b9e8cde9c54828a9b64
+run_name: carefree-auk-552
+run_uuid: 523af652d5a64b9e8cde9c54828a9b64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719878758945
+status: 4
+tags: []
+user_id: ryanmerrithew

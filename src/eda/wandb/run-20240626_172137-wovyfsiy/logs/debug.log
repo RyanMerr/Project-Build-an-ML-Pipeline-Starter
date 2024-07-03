@@ -1,0 +1,109 @@
+2024-06-26 17:21:37,560 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Configure stats pid to 19676
+2024-06-26 17:21:37,561 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Loading settings from /Users/ryanmerrithew/.config/wandb/settings
+2024-06-26 17:21:37,561 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Loading settings from /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-06-26 17:21:37,561 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-06-26 17:21:37,561 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-26 17:21:37,561 INFO    MainThread:19676 [wandb_init.py:_log_setup():478] Logging user logs to /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_172137-wovyfsiy/logs/debug.log
+2024-06-26 17:21:37,561 INFO    MainThread:19676 [wandb_init.py:_log_setup():479] Logging internal logs to /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_172137-wovyfsiy/logs/debug-internal.log
+2024-06-26 17:21:37,562 INFO    MainThread:19676 [wandb_init.py:_jupyter_setup():428] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x14087da90>
+2024-06-26 17:21:37,562 INFO    MainThread:19676 [wandb_init.py:init():518] calling init triggers
+2024-06-26 17:21:37,562 INFO    MainThread:19676 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-06-26 17:21:37,562 INFO    MainThread:19676 [wandb_init.py:init():537] re-initializing run, found existing run on stack: 9ylo3mx7
+2024-06-26 17:21:37,563 INFO    MainThread:19676 [wandb_run.py:_finish():1844] finishing run rmer/nyc_airbnb/9ylo3mx7
+2024-06-26 17:21:37,575 INFO    MainThread:19676 [jupyter.py:save_history():478] saving 21 cells to _session_history.ipynb
+2024-06-26 17:21:37,576 INFO    MainThread:19676 [wandb_run.py:_config_callback():1249] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2024-06-26 17:21:37,577 ERROR   MainThread:19676 [jupyter.py:save_history():504] Unable to save ipython session history:
+[Errno 32] Broken pipe
+2024-06-26 17:21:37,577 INFO    MainThread:19676 [jupyter.py:_save_ipynb():390] looking for notebook: None
+2024-06-26 17:21:37,577 INFO    MainThread:19676 [wandb_init.py:_jupyter_teardown():410] cleaning up jupyter logic
+2024-06-26 17:21:37,585 ERROR   MainThread:19676 [wandb_init.py:init():1135] error
+Traceback (most recent call last):
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1108, in init
+    run = wi.init()
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 550, in init
+    self._wl._global_run_stack[-1].finish()
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 370, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 333, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1835, in finish
+    return self._finish(exit_code, quiet)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1863, in _finish
+    manager._inform_finish(run_id=self._run_id)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/wandb_manager.py", line 187, in _inform_finish
+    svc_iface._svc_inform_finish(run_id=run_id)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/service/service_sock.py", line 54, in _svc_inform_finish
+    self._sock_client.send(inform_finish=inform_finish)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2024-06-26 22:44:19,773 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Configure stats pid to 19676
+2024-06-26 22:44:19,773 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Loading settings from /Users/ryanmerrithew/.config/wandb/settings
+2024-06-26 22:44:19,773 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Loading settings from /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-06-26 22:44:19,773 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-06-26 22:44:19,774 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-26 22:44:19,774 INFO    MainThread:19676 [wandb_init.py:_log_setup():478] Logging user logs to /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_224419-rfjwckb6/logs/debug.log
+2024-06-26 22:44:19,774 INFO    MainThread:19676 [wandb_init.py:_log_setup():479] Logging internal logs to /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240626_224419-rfjwckb6/logs/debug-internal.log
+2024-06-26 22:44:19,774 INFO    MainThread:19676 [wandb_init.py:_jupyter_setup():428] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x14098b3a0>
+2024-06-26 22:44:19,774 INFO    MainThread:19676 [wandb_init.py:init():518] calling init triggers
+2024-06-26 22:44:19,774 INFO    MainThread:19676 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-06-26 22:44:19,774 INFO    MainThread:19676 [wandb_init.py:init():571] starting backend
+2024-06-26 22:44:19,774 INFO    MainThread:19676 [wandb_init.py:init():575] setting up manager
+2024-06-26 22:44:19,791 ERROR   MainThread:19676 [wandb_init.py:init():1135] error
+Traceback (most recent call last):
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1108, in init
+    run = wi.init()
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 576, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/wandb_manager.py", line 174, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/service/service_sock.py", line 38, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2024-06-29 13:31:08,554 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Configure stats pid to 19676
+2024-06-29 13:31:08,555 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Loading settings from /Users/ryanmerrithew/.config/wandb/settings
+2024-06-29 13:31:08,555 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Loading settings from /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-06-29 13:31:08,556 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-06-29 13:31:08,556 INFO    MainThread:19676 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-29 13:31:08,556 INFO    MainThread:19676 [wandb_init.py:_log_setup():478] Logging user logs to /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240629_133108-o4yig8tk/logs/debug.log
+2024-06-29 13:31:08,556 INFO    MainThread:19676 [wandb_init.py:_log_setup():479] Logging internal logs to /Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240629_133108-o4yig8tk/logs/debug-internal.log
+2024-06-29 13:31:08,556 INFO    MainThread:19676 [wandb_init.py:init():518] calling init triggers
+2024-06-29 13:31:08,556 INFO    MainThread:19676 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-06-29 13:31:08,556 INFO    MainThread:19676 [wandb_init.py:init():571] starting backend
+2024-06-29 13:31:08,556 INFO    MainThread:19676 [wandb_init.py:init():575] setting up manager
+2024-06-29 13:31:08,571 ERROR   MainThread:19676 [wandb_init.py:init():1135] error
+Traceback (most recent call last):
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1108, in init
+    run = wi.init()
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 576, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/wandb_manager.py", line 174, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/service/service_sock.py", line 38, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/ryanmerrithew/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe

@@ -1,0 +1,6 @@
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x13ee6e2b0>> (for post_run_cell), with arguments args (<ExecutionResult object at 13ed9ad00, execution_count=4 error_before_exec=None error_in_exec=type dataset specified but this artifact is of type raw_data info=<ExecutionInfo object at 13ed9af70, raw_cell="import wandb
+import pandas as pd
+# Note that we us.." store_history=True silent=False shell_futures=True cell_id=vscode-notebook-cell:/Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/eda.ipynb#W2sZmlsZQ%3D%3D> result=None>,),kwargs {}:
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x13ee6e2b0>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 13ee6eb20, raw_cell="import wandb
+import pandas as pd
+# Note that we us.." store_history=True silent=False shell_futures=True cell_id=vscode-notebook-cell:/Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/src/eda/eda.ipynb#W2sZmlsZQ%3D%3D>,),kwargs {}:

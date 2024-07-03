@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fb1f17379e6f463696016d5e6b6b0023/artifacts
+end_time: 1719441153583
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fb1f17379e6f463696016d5e6b6b0023
+run_name: unique-hog-5
+run_uuid: fb1f17379e6f463696016d5e6b6b0023
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719441065494
+status: 4
+tags: []
+user_id: ryanmerrithew

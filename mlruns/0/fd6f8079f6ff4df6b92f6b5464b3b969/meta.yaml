@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fd6f8079f6ff4df6b92f6b5464b3b969/artifacts
+end_time: 1719944406076
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd6f8079f6ff4df6b92f6b5464b3b969
+run_name: polite-flea-298
+run_uuid: fd6f8079f6ff4df6b92f6b5464b3b969
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719944376791
+status: 3
+tags: []
+user_id: ryanmerrithew

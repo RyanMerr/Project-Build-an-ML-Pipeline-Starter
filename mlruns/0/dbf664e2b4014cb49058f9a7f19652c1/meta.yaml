@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/dbf664e2b4014cb49058f9a7f19652c1/artifacts
+end_time: 1719798539280
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dbf664e2b4014cb49058f9a7f19652c1
+run_name: magnificent-koi-774
+run_uuid: dbf664e2b4014cb49058f9a7f19652c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719798447988
+status: 4
+tags: []
+user_id: ryanmerrithew

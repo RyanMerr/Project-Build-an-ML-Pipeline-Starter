@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a6a667df99cb474babc0a5d242d5b23b/artifacts
+end_time: 1719356801977
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a6a667df99cb474babc0a5d242d5b23b
+run_name: dapper-dove-335
+run_uuid: a6a667df99cb474babc0a5d242d5b23b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719356666878
+status: 3
+tags: []
+user_id: ryanmerrithew

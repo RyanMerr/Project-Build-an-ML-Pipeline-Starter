@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryanmerrithew/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c1f6e35953ec41369289b0afaaba05aa/artifacts
+end_time: 1719357888862
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c1f6e35953ec41369289b0afaaba05aa
+run_name: languid-kite-435
+run_uuid: c1f6e35953ec41369289b0afaaba05aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719357877998
+status: 3
+tags: []
+user_id: ryanmerrithew
